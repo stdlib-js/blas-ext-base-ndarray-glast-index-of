@@ -84,7 +84,7 @@ var searchElement = scalar2ndarray( 2.0, {
     'dtype': 'generic'
 });
 
-var fromIndex = scalar2ndarray( 0, {
+var fromIndex = scalar2ndarray( 3, {
     'dtype': 'generic'
 });
 
@@ -113,7 +113,7 @@ var searchElement = scalar2ndarray( 10.0, {
     'dtype': 'generic'
 });
 
-var fromIndex = scalar2ndarray( 0, {
+var fromIndex = scalar2ndarray( 3, {
     'dtype': 'generic'
 });
 
@@ -160,7 +160,7 @@ var searchElement = scalar2ndarray( 80.0, {
 });
 console.log( 'Search Element:', ndarraylike2scalar( searchElement ) );
 
-var fromIndex = scalar2ndarray( 0, {
+var fromIndex = scalar2ndarray( -1, {
     'dtype': 'generic'
 });
 console.log( 'From Index:', ndarraylike2scalar( fromIndex ) );
