@@ -50,7 +50,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-glastIndexOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@umd/browser.js' )
+glastIndexOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -62,7 +62,7 @@ var glastIndexOf = require( 'path/to/vendor/umd/blas-ext-base-ndarray-glast-inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -156,7 +156,7 @@ var idx = glastIndexOf( [ x, searchElement, fromIndex ] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2scalar@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-glast-index-of@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
