@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-ndarray-glast-index-of",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return the last index of a specified search element in a one-dimensional ndarray.",
   "license": "Apache-2.0",
   "author": {
@@ -38,16 +38,16 @@
   },
   "dependencies": {
     "@stdlib/blas-ext-base-glast-index-of": "^0.1.0",
-    "@stdlib/ndarray-base-data-buffer": "^0.2.2",
-    "@stdlib/ndarray-base-ndarraylike2scalar": "^0.1.0",
-    "@stdlib/ndarray-base-numel-dimension": "^0.3.2",
-    "@stdlib/ndarray-base-offset": "^0.2.2",
-    "@stdlib/ndarray-base-stride": "^0.2.2",
+    "@stdlib/ndarray-base-data-buffer": "^0.2.3",
+    "@stdlib/ndarray-base-ndarraylike2scalar": "^0.1.1",
+    "@stdlib/ndarray-base-numel-dimension": "^0.3.3",
+    "@stdlib/ndarray-base-offset": "^0.2.3",
+    "@stdlib/ndarray-base-stride": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/assert-is-integer": "^0.2.2",
-    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/assert-is-integer": "^0.2.3",
+    "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/ndarray-base-ctor": "^0.3.0",
     "@stdlib/ndarray-from-scalar": "^0.3.0",
     "@stdlib/ndarray-to-array": "^0.2.1",
@@ -56,7 +56,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
