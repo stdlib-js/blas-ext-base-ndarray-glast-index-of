@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,17 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Return the last index of a search element in a one-dimensional ndarray.
+* Returns the last index of a search element in a one-dimensional ndarray.
 *
-* @module @stdlib/blas-ext-base-ndarray-glast-index-of
+* @param arrays - array-like object containing a one-dimensional input ndarray, a zero-dimensional ndarray containing the search element, and a zero-dimensional ndarray containing the index from which to begin searching
+* @returns index
 *
 * @example
 * var ndarray = require( '@stdlib/ndarray-base-ctor' );
 * var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
-* var glastIndexOf = require( '@stdlib/blas-ext-base-ndarray-glast-index-of' );
 *
 * var xbuf = [ 1.0, 2.0, 4.0, 2.0 ];
 * var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
@@ -42,12 +46,9 @@
 * var v = glastIndexOf( [ x, searchElement, fromIndex ] );
 * // returns 3
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function glastIndexOf<T = unknown>( arrays: [ typedndarray<T>, typedndarray<T>, typedndarray<number> ] ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = glastIndexOf;
